@@ -1,0 +1,226 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/203035ae6a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+	    <div class="container">
+		    <nav>
+			    <img src="images/logo.png" class="logo"></img>
+				<ul>
+				    <li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#Services">Services</a></li>
+					<li><a href="#Portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="header-text">
+			    <p>ASP.Net Developer</p>
+			    <h1>Hi,I'm <span>Riaz</span><br> Mehadi From Bangladesh</h1>
+			</div>
+		</div>
+	</div>
+	<!-----------about----------->
+	<div id="about">
+	    <div class="container">
+		    <div class="row">
+			    <div class="about-col-1">
+				    <img src="images/user.png"></img>
+				</div>
+				<div class="about-col-2">
+				    <h1 class="sub-title">About Me</h1>
+					<p>
+					 I am a Computer Science and Engineering graduate from North South University
+					 with expertise in C++,C#, Python,Java, MySQL. I have solved more than 1700 problems
+					 on competitive programming platforms like Codeforces andLeetCode, honing my
+					 problem-solving skills. My project experience includes a Inventory using C# 
+					 and .Net framework .I also have experience in advanced machine learning 
+					 projects like Non-Small Cell Detection and Bangla
+					 Sign Language Detection.I strive to embrace new challenges and deliver 
+					 impactful solutions in the field of computer science.
+					</p>
+					<div class="tab-title">
+				        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					    <p class="tab-links"onclick="opentab('experience')">Pulicaton and Expertise</p>
+					    <p class="tab-links"onclick="opentab('education')">Education</p>
+				    </div>
+					<div class="tab-content active-tab" id="skills">
+					    <ul>
+						    <li><span>AI</span><br> Mechine learning/Deep learning</li>
+							<li><span>Programming Language</span><br> C,C++,C#,Javascript,Java</li>
+							<li><span>Web Development</span><br> Web app Development</li>
+						</ul>
+					</div>
+					<div class="tab-content" id="experience">
+					    <ul>
+						    <li><span>Problem-solving</span><br> Leetcode,Hackerrank,Codeforces etc</li>
+							<li><span>PLOS ONE Journal </span><br>Non small cancer Cell detection</li>
+							
+						</ul>
+					</div>
+					<div class="tab-content"id="education">
+					    <ul>
+						    <li><span>University</span><br> North South University</li>
+							<li><span>Department</span><br> ECE</li>
+							<li><span>CGPA</span><br> 3.61</li>
+						</ul>
+					</div>
+					
+				</div>
+				
+		    </div>
+		</div>
+	</div>
+	<!-----------Services----------->
+	<!-- for Services heading desing https://fontawesome.com/search?q=app&o=r -->
+	<div id="Services">
+	    <div class="container">
+		    <h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+			    <div>
+				    <i class="fa-solid fa-code"></i>
+				    <h2>Software Eng.</h2>
+					<p>Design, develop, and maintain web applications using c# and .Net FrameWork. 
+					Collaborate with cross-functional teams to deliver scalable solutions. 
+					Optimize code for performance and security.</p>
+					<a href="#">Learn more...</a>
+				</div>
+				<div>
+				    <i class="fa-solid fa-crop"></i>
+				    <h2>SQL Developer </h2>
+					<p>specializes in designing, developing, 
+					and optimizing SQL queries, 
+					stored procedures, and database structures.
+					I try to ensure efficient data retrieval,
+					manipulation, and performance tuning for applications</p>
+					<a href="#">Learn more...</a>
+				</div>
+				<div>
+				    <i class="fa-brands fa-app-store-ios"></i>
+				    <h2>AI Expert</h2>
+					<p>Develop and train machine learning and deep learning models using TensorFlow or PyTorch.
+					Preprocess data and fine-tune models for accuracy. 
+					Deploy models in production environments.</p>
+					<a href="#">Learn more...</a>
+				</div>
+			</div>
+		   
+		</div>
+	</div>
+	<!-----------My Portfolio----------->
+	
+	<div id="Portfolio">
+	    <div class="container">
+		    <h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+			    <div class="work">
+				    <img src="images/work-1.png">
+					<div class="layer"> 
+					    <h3>Social Media App</h3>
+						<p>This app connects you to the telented people of the world.
+						Download it from playstore.
+						</p>
+						<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+				    <img src="images/work-2.png">
+					<div class="layer"> 
+					    <h3>Music App</h3>
+						<p>This app connects you to the telented people of the world.
+						Download it from playstore.
+						</p>
+						<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work">
+				    <img src="images/work-3.png">
+					<div class="layer"> 
+					    <h3>Online Shoping App</h3>
+						<p>This app connects you to the telented people of the world.
+						Download it from playstore.
+						</p>
+						<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn">See more</a>
+		</div>
+	</div>
+	
+	<!--------------Contact-------------->
+	<div id="contact">
+	    <div class="container">
+		    <div class="row">
+			    <div class="contact-left">
+				    <h1 class="sub-title">Contact Me</h1>
+					<p><i class="fa-solid fa-paper-plane"></i>  shadr862@gmail.com</p>
+					<p><i class="fa-solid fa-square-phone"></i>  01783882221</p>
+					<div class="social-icon">
+					    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-github"></i></a>
+						<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+					</div>
+					<a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact-right">
+				    <form name="submit-to-google-sheet">
+					    <input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="msg"></span>
+				</div>
+			</div>  
+		</div>
+		<div class="copy-right">
+		    <p>Copyright <i class="fa-solid fa-copyright"></i>RM.Made with<i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+		</div>
+	</div>
+		
+</body>
+<script>
+   var tablinks=document.getElementsByClassName("tab-links");
+   var tabcontents=document.getElementsByClassName("tab-content");
+   
+   function opentab(tabname)
+   {
+        for(tablink of tablinks)
+	    {
+	        tablink.classList.remove("active-link");
+	    }
+		
+		for(tabcontent of tabcontents)
+	    {
+	        tabcontent.classList.remove("active-tab");
+	    }
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+   }
+   
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbys0rmjzRwEn1f3OYclyfCaP9Jwy-7C8t1kg1Gz8_0n3Iw9lPb3WQW_RmfjDhYjfzzW3w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById('msg')
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+	    msg.innerHTML="Message Sent Successfully"
+		setTimeout(function(){
+			msg.innerHTML=""
+		},5000)
+		form.reset();
+	  })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</html>
