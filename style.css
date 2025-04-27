@@ -386,12 +386,15 @@ form .btn2{
 
 /*-------------------Mobile Version-----------------------*/
 
+/* Adjust the gap between Home and About on mobile */
 @media only screen and (max-width: 768px) {
     #header {
-        margin-bottom: 20px; /* Reduce the margin to shrink the gap */
+        margin-bottom: 0; /* Ensure there is no bottom margin */
+        padding-bottom: 0; /* Remove padding if any */
     }
 
     #about {
-        margin-top: 0; /* Remove any top margin to reduce space */
+        margin-top: 0; /* Remove top margin */
+        padding-top: 0; /* Remove padding if any */
     }
 }
