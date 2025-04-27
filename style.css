@@ -389,12 +389,11 @@ form .btn2{
 /* Adjust the gap between Home and About on mobile */
 @media only screen and (max-width: 768px) {
     #header {
-        margin-bottom: 0; /* Ensure there is no bottom margin */
-        padding-bottom: 0; /* Remove padding if any */
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
     }
 
     #about {
-        margin-top: 0; /* Remove top margin */
-        padding-top: 0; /* Remove padding if any */
+        margin-top: -20px !important; /* Try a negative margin to pull it closer */
     }
 }
