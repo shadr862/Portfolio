@@ -384,4 +384,14 @@ form .btn2{
 	display:block;
 }
 
+/*-------------------Mobile Version-----------------------*/
 
+@media only screen and (max-width: 768px) {
+    #header {
+        margin-bottom: 20px; /* Reduce the margin to shrink the gap */
+    }
+
+    #about {
+        margin-top: 0; /* Remove any top margin to reduce space */
+    }
+}
