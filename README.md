@@ -4,10 +4,10 @@ Welcome to my portfolio repository! I'm **Riaz Mahadi**, a passionate Computer S
 
 ## 🌐 Live Portfolio
 
-🔗 [Visit My Portfolio](https://your-portfolio-link.com)  
+🔗 [Visit My Portfolio](https://shadr862.github.io/Portfolio/)  
 📧 Email: shadr862@gmail.com  
 📍 Dhaka, Bangladesh  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-link) | [GitHub](https://github.com/your-username)
+🔗 [LinkedIn](https://www.linkedin.com/in/riaz-mehedi-7584031a3/) | [GitHub](https://github.com/shadr862)
 
 ---
 
@@ -71,15 +71,5 @@ You can view contact submissions from the portfolio form in this connected Googl
 - Built **10+** full-stack applications
 - Participated in national-level programming contests
 
----
 
-## 📫 Contact
 
-If you're hiring or looking for a motivated software engineer, I’d love to connect!
-
-📧 Email: shadr862@gmail.com  
-🔗 LinkedIn: [linkedin.com/in/your-link](https://www.linkedin.com/in/your-link)
-
----
-
-> “Code is like humor. When you have to explain it, it’s bad.” – Cory House
