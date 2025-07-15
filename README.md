@@ -14,16 +14,16 @@ Welcome to my portfolio repository! I'm **Riaz Mahadi**, a passionate Computer S
 ## 🛠️ Tech Stack
 
 **Frontend**  
-- Angular, HTML5, SCSS, TypeScript, Bootstrap, Tailwind CSS
+- Angular, HTML5, SCSS, TypeScript, Bootstrap,CSS
 
 **Backend**  
 - ASP.NET Core, ABP Framework, Entity Framework Core, RESTful APIs
 
 **Database**  
-- SQL Server, PostgreSQL
+- SQL Server
 
 **Other Tools**  
-- Git, GitHub, Figma, Postman, Docker (basics)
+- Git, GitHub,Postman
 
 ---
 
