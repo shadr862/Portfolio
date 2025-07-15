@@ -68,8 +68,8 @@ You can view contact submissions from the portfolio form in this connected Googl
 ## 🏆 Achievements
 
 - Solved over **1700+** problems on LeetCode, HackerRank, and other OJs
-- Built **10+** full-stack applications
-- Participated in national-level programming contests
+- Built **5+** full-stack applications
+
 
 
 
